@@ -1,8 +1,4 @@
 $(document).ready(function () {
-    $('.counter').counterUp({
-         delay: 10,
-         time: 1500
-     });
     "use strict";
     var window_width = $(window).width(),
         window_height = window.innerHeight,
@@ -97,4 +93,8 @@ $(document).ready(function () {
     }
     $(window).on('scroll', menuFixed);
     menuFixed();
+    $('.counter').counterUp({
+         delay: 10,
+         time: 1500
+     });
 });
