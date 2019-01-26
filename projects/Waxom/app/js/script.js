@@ -1,4 +1,8 @@
 $(document).ready(function () {
+    $('.counter').counterUp({
+         delay: 10,
+         time: 1500
+     });
     "use strict";
     var window_width = $(window).width(),
         window_height = window.innerHeight,
@@ -11,10 +15,6 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    $('.counter').counterUp({
-         delay: 10,
-         time: 1500
-     });
     var video = document.querySelector('.video video');
     var link = $('.menu-top a');
     var header = $('header');
