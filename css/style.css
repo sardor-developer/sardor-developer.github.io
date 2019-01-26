@@ -699,7 +699,7 @@ img {
 
   .certificate .photo {
     width: 250px;
-    height: 200px;
+    height: 100px !important;
   }
 
   #contact h4 {
