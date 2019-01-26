@@ -42,7 +42,7 @@ $(document).ready(function () {
 
 
 
-    new WOW().init();
+    
 
 //     $('.counter').counterUp({
 //         delay: 10,
@@ -70,5 +70,7 @@ $(document).ready(function () {
     }
     $(window).on('scroll', menuFixed);
     menuFixed();
+    
+    new WOW().init();
 
 });
