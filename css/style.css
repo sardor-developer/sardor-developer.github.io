@@ -153,7 +153,7 @@
   padding-bottom: 50px;
 }
 
-.about .text {
+/* .about .text {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -162,7 +162,7 @@
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
+} */
 
 .about .mmm {
   border: 2px solid #fff;
