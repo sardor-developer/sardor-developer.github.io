@@ -1,0 +1,85 @@
+.food {
+  padding-bottom: 50px;
+  padding-top: 30px;
+  h2 {
+    font-family: 'Yeseva One';
+    font-size: 32px;
+    font-weight: 100;
+    color: #cc9900;
+    padding-top: 100px;
+  }
+  h3 {
+    padding-top: 100px;
+  }
+  .dish {
+    padding-top: 70px;
+  }
+  p {
+    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: 300;
+    color: #4c4c4c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  @media(max-width:320px) {
+    .h2 {
+      font-size: 10px !important;
+    }
+  }
+}
+
+@media(max-width:320px) {
+  .dish img {
+    width: 60%;
+  }
+}
+
+@media(max-width:576px) {
+  .dish {
+    width: 60%;
+    display: flex;
+    justify-content: center !important;
+  }
+  .food h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .cook {
+    display: flex;
+    justify-content: center !important;
+  }
+  p {
+    text-align: center;
+  }
+  .d-yellow {
+    display: flex;
+    justify-content: center !important;
+  }
+}
+
+@media(min-width:768px) {
+  .dish img {
+    width: 100%;
+  }
+  .cook {
+    display: flex;
+    justify-content: center !important;
+  }
+  h2 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .d-yellow {
+    display: flex;
+    justify-content: center !important;
+  }
+}
+
+@media(min-width:992px) {
+  .dish img {
+    width: 80%;
+  }
+}

@@ -1,0 +1,135 @@
+.header {
+  background: url('../img/1.png') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  .menu-top {
+    .navbar {
+      .nav-item {
+        text-align: center;
+        .nav-link {
+          color: @light;
+          font-family: 'Montserrat';
+          font-size: 14px;
+          text-transform: capitalize;
+          padding: 5px 10px;
+          &:hover {
+            border: 1px solid #fff;
+            border-radius: 20px;
+          }
+        }
+      }
+    }
+    .fa {
+      color: @white;
+      font-size: 20px;
+      padding: 0 15px;
+    }
+  }
+  .menu-carousel {
+    margin-top: 10%;
+    @media (max-width: 1200px) {
+      margin-top: 5%;
+    }
+    .carousel-indicators {
+      top: 400px;
+      @media (max-width: 320px) {
+        top: 350px;
+      }
+      @media (width: 576px) {
+        top: 350px;
+      }
+      @media (max-width: 576px) {
+        top: 350px;
+      }
+      @media (max-width: 768px) {
+        top: 300px;
+      }
+      @media (max-width: 992px) {
+        top: 280px;
+      }
+      @media (max-width: 1200px) {
+        top: 300px;
+      }
+    }
+    .carousel-indicators li {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #939190;
+    }
+    .carousel-indicators li:hover {
+      // opacity: .6;
+      z-index: 1;
+      border: 2px solid @white;
+    }
+    .carousel-indicators li.active {
+      border: 2px solid @white;
+      z-index: 1;
+    }
+    .text {
+      @media (max-width: 320px) {
+        margin-top: 5%;
+      }
+      @media (max-width: 576px) {
+        margin-top: 6%;
+      }
+      h4 {
+        font-family: 'Raleway';
+        font-size: 36px;
+        color: @white;
+        font-weight: 'Medium';
+        @media (max-width: 320px) {
+          font-size: 26px;
+        }
+        @media (width: 576px) {
+          font-size: 30px;
+        }
+        @media (max-width: 576px) {
+          font-size: 26px;
+        }
+      }
+      h3 {
+        font-family: 'Raleway';
+        font-size: 52px;
+        color: @white;
+        font-weight: 700;
+        @media (max-width: 320px) {
+          font-size: 35px;
+        }
+        @media (width: 576px) {
+          font-size: 40px;
+        }
+        @media (max-width: 576px) {
+          font-size: 35px;
+        }
+      }
+      p {
+        font-family: 'Montserrat(OTT)';
+        font-size: 16px;
+        font-weight: 'Light';
+        color: @white;
+        @media (max-width: 320px) {
+          font-size: 11.2px;
+        }
+        @media (max-width: 576px) {
+          font-size: 14px;
+        }
+      }
+      .btn {
+        margin-top: 25px;
+        width: 160px;
+        height: 40px;
+        text-transform: uppercase;
+        color: @white;
+        background: #998675;
+        border-bottom: 3px solid #736357;
+        font-family: 'Raleway';
+        font-size: 14px;
+        font-weight: 700;
+        @media (max-width: 576px) {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}

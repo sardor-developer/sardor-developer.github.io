@@ -1,0 +1,192 @@
+.projects {
+  padding-bottom: 50px;
+  .projects-text {
+    h3 {
+      font-family: 'Raleway (TT)';
+      font-size: 30px;
+      font-weight: SemiBold;
+      color: #555555;
+    }
+    p {
+      font-family: 'Montserrat(OTT)';
+      font-size: 16px;
+      font-weight: Light;
+      color: #8c8c8c;
+    }
+  }
+  .tab {
+    .nav {
+      color: #8c8c8c;
+      display: flex;
+      justify-content: center;
+    }
+    li {
+      border: 1px solid @light;
+      color: #fff;
+      padding: 8px;
+      margin: 0 8px;
+      text-transform: capitalize;
+      font-family: 'Montserrat';
+      font-size: 14px;
+    }
+    li:hover  {
+      background: #998675;
+    }
+    a {
+      color: #8c8c8c;
+    }
+    a:hover {
+      color: @white;
+    }
+    .text {
+      margin-top: 35px !important;
+      height: 330px;
+      background: #fbfaf8;
+      flex-direction: column;
+      transition: box-shadow 1s;
+      img {
+        background-size: cover;
+        height: 235px;
+        width: 370px;
+      }
+      h4 {
+        color: #c7b299;
+        font-family: 'Raleway';
+        font-size: 20px;
+        text-transform: capitalize;
+        font-weight: Medium;
+        margin-left: 25px;
+        margin-top: 25px;
+      }
+      p {
+        font-family: 'Montserrat';
+        font-size: 14px;
+        color: #d1d1d1;
+        margin-left: 25px;
+      }
+      .fa {
+        color: #c7b299;
+        font-size: 30px;
+        margin: 0 10px;
+        margin-top: 25%;
+      }
+      .fa:hover {
+        color: #fff;
+      }
+    }
+    .text:hover .hide {
+      opacity: .65;
+      box-shadow: #555555 100%;
+    }
+    .text .hide {
+      position: absolute;
+      font-style: 20px;
+      color: #909090;
+      opacity: 0;
+      transition: opacity 1s;
+      width: 350px;
+      height: 235px;
+      padding: 20px;
+      font-family: 'Open Sans';
+      font-size: 15px;
+      background: #000;
+    }
+    @media (max-width: 320px) {
+      .text {
+        width: 290px;
+      }
+      .text .hide {
+        width: 290px;
+      }
+      .fa {
+        margin-top: 30% !important;
+      }
+    }
+    @media (width: 576px) {
+      .text {
+        width: 370px;
+        margin: auto;
+      }
+      .text .hide {
+        width: 370px;
+      }
+    }
+    @media (max-width: 576px) {
+      .text {
+        width: 290px;
+        margin: auto;
+      }
+      .text .hide {
+        width: 290px;
+      }
+    }
+    @media (max-width: 768px) {
+      .text {
+        width: 330px;
+        margin: auto;
+      }
+      .text .hide {
+        width: 330px;
+      }
+    }
+    @media (max-width: 992px) {
+      .text {
+        margin-top: 35px;
+        width: 330px;
+        margin: auto;
+      }
+      .text .hide {
+        width: 330px;
+      }
+    }
+    @media (width: 992px) {
+      .text {
+        margin-top: 35px;
+        width: 300px;
+      }
+      .text .hide {
+        width: 300px;
+      }
+    }
+    @media (width: 1200px) {
+      .text {
+        margin-top: 35px;
+        width: 350px;
+      }
+      .text .hide {
+        width: 350px;
+      }
+    }
+    @media (max-width: 1200px) {
+      .text {
+        margin-top: 35px;
+        width: 300px;
+      }
+      .text .hide {
+        width: 300px;
+      }
+    }
+    .text:hover {
+      background: #362f2d;
+      color: #fff;
+    }
+    .text:hover h4 {
+      color: #fff;
+      font-size: 21px;
+    }
+    .text:hover p {
+      color: #c7b299;
+    }
+  }
+  .btn {
+    margin-top: 30px;
+    background: #998675;
+    color: #fff;
+    width: 150px;
+    height: 45px;
+    text-transform: uppercase;
+    font-family: 'Raleway (TT)';
+    font-size: 14px;
+    font-weight: 700;
+  }
+}

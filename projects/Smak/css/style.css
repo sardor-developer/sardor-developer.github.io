@@ -1,0 +1,674 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'Oswald';
+  font-size: 16px;
+  font-weight: 300;
+  color: #707070;
+}
+
+h1,
+.h1 {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 35px;
+}
+
+h1:hover {
+  color: #ffe600;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3:hover {
+  color: #ffe600;
+}
+
+h4 {
+  color: #515151;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+h4:hover {
+  color: #ffe600;
+}
+
+h5 {
+  color: #515151;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+h5:hover {
+  color: #ffe600;
+}
+
+p:hover {
+  color: #ffe600;
+}
+
+hr {
+  width: 170px;
+  height: 2px;
+  background: c;
+}
+
+.header {
+  background: url(../img/howwedobg.jpg);
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+
+.header .menu-top {
+  background: rgba(0, 0, 0, .4);
+  position: absolute;
+  width: 100%;
+}
+
+.header .menu-top .navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header .menu-top .navbar-light .navbar-nav .nav-item {
+  list-style-type: square;
+  color: #ffe600;
+  margin: 0 10px;
+}
+
+.header .menu-top .navbar-light .navbar-nav .nav-item:nth-child(1) {
+  list-style: none;
+}
+
+.header .menu-top .navbar-light .navbar-nav .nav-link:hover {
+  color: #ffe600;
+}
+
+.header .flex {
+  display: flex;
+  height: 100vh;
+}
+
+.header .flex .center {
+  margin: auto;
+  text-align: center;
+}
+
+.header .flex .center .yellow {
+  background: #ffe600;
+  text-transform: uppercase;
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px 25px;
+}
+
+.header .flex .center .btn-yellow {
+  background: #ffe600;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+}
+
+.service {
+  padding: 50px 0px;
+}
+
+.service p {
+  text-align: center;
+}
+
+.service .round {
+  width: 106px;
+  height: 106px;
+  background: #ffe600;
+  border-radius: 50%;
+  margin: auto;
+  line-height: 106px;
+  transition: 1s;
+}
+
+.service .round .fa {
+  font-size: 35px;
+  color: #fff;
+}
+
+.service .round:hover {
+  background: #ffffff;
+  border: 1px solid #515151;
+}
+
+.service .round:hover .fa {
+  color: #ffe600;
+}
+
+.do-it p {
+  text-align: center;
+}
+
+.do-it .it {
+  color: #ffe600;
+  font-size: 50px;
+}
+
+.do-it .it-roll {
+  color: #ffe600;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.do-it {
+  background: url(../img/howwedobg.jpg) center center;
+  padding-top: 65px;
+  padding-bottom: 49px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.do-it img {
+  transition: 1s;
+}
+
+.do-it img:hover {
+  transform: rotate(360deg)
+}
+
+.works {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.works .nav-item {
+  list-style-type: square;
+}
+
+.works .nav {
+  margin-bottom: 50px;
+}
+
+.works .nav .nav-item {
+  color: #ffe600;
+  margin-right: 15px;
+}
+
+.works .nav .nav-item:nth-child(1) {
+  list-style: none;
+}
+
+.works .nav .nav-item .nav-link {
+  color: #515151;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.works .nav .nav-item .nav-link:hover {
+  color: #ffe600;
+}
+
+.pics .col-lg-2 {
+  padding: 0;
+}
+
+.portfolio {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.portfolio img {
+  background: #ffe600;
+  padding: 10px;
+}
+
+.portfolio p {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.portfolio h3 {
+  padding-top: 25px;
+}
+
+.btn {
+  background: #ffe600;
+  padding: 10px 50px;
+}
+
+.proud {
+  background: #000;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.proud h3 {
+  color: #fff;
+  padding-bottom: 25px;
+  font-size: 30px;
+}
+
+.proud h3:hover {
+  color: #ffe600;
+}
+
+.proud p {
+  padding-bottom: 40px;
+  color: #fff;
+}
+
+.proud p:hover {
+  color: #ffe600;
+}
+
+.proud .number {
+  padding-bottom: 15px;
+  padding-top: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.proud-box-a {
+  border: 1px solid #ffe600;
+  /*  margin: 50px 50px; */
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+
+.proud h5 {
+  color: #ffe600;
+}
+
+.about {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.about-box {
+  padding-top: 10px;
+}
+
+/* .sss {
+  justify-content: center;
+  display: flex;
+} */
+
+.about-box .box {
+  background: #ffe600;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+}
+
+
+/* .sss {
+  display: flex;
+  justify-content: center;
+} */
+
+.team {
+  padding-top: 65px;
+  padding-bottom: 40px;
+}
+
+.team p {
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.team h4 {
+  color: #ffe600;
+}
+
+.team h5 {
+  border-bottom: 1px solid #dfe4e5;
+  padding-bottom: 25px;
+}
+
+.team img {
+  border-radius: 50%;
+}
+
+.team .top {
+  padding-bottom: 40px;
+}
+
+.doe {
+  background: #000;
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+
+.doe h3 {
+  color: #fff;
+  text-align: center;
+}
+
+.doe h3:hover {
+  color: #ffe600;
+}
+
+.doe .john {
+  margin-bottom: -40px;
+}
+
+.doe p {
+  color: #fff;
+  padding-top: 50px;
+}
+
+.doe p:hover {
+  color: #ffe600;
+}
+
+
+.skills {
+  background: #131a1d;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.skills p {
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.skills p:hover {
+  color: #ffe600;
+}
+
+.skills h3 {
+  color: #fff;
+}
+
+.skills h3:hover {
+  color: #ffe600;
+}
+
+.skills .round p {
+  color: #ffe600;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  width: 106px;
+  height: 106px;
+  line-height: 90px;
+  margin: auto;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.skills .round h5 {
+  color: #ffe600;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.skills .round {
+  padding-bottom: 30px;
+}
+
+.clients {
+  padding-top: 65px;
+  padding-bottom: 85px;
+}
+
+.clients img {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.daniel {
+  background: #131a1d;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  list-style-type: square;
+}
+
+.daniel p {
+  color: #fff;
+  font-weight: 700;
+}
+
+.daniel p:hover {
+  color: #ffe600;
+}
+
+.daniel .btn {
+  background: #fff;
+  padding: 3px;
+
+}
+
+.daniel .btn:hover {
+  background: #ffe600;
+}
+
+
+.contact {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+.contact p {
+  padding-bottom: 50px;
+}
+
+.contact p:hover {
+  color: #ffe600;
+}
+
+.contact h3:hover {
+  color: #ffe600;
+}
+
+.contact h5 {
+  padding-top: 25px;
+}
+
+.contact h5:hover {
+  color: #ffe600;
+}
+
+.message {
+  background: #131a1d;
+  padding-top: 50px;
+  padding-bottom: 65px;
+}
+
+.message h4 {
+  color: #fff;
+}
+
+.message h4:hover {
+  color: #ffe600;
+}
+
+.message p {
+  color: #ffffff;
+}
+
+.message p:hover {
+  color: #ffe600;
+}
+
+.message .btn {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.message form {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.smak {
+  background: #131316;
+  padding-top: 25px;
+}
+
+.smak p {
+  color: #fff;
+}
+
+.smak p:hover {
+  color: #ffe600;
+}
+
+.smak img {
+  margin-left: 10px;
+}
+
+.smak .btn {
+  background: #ffe600;
+  padding: 10px 20px 20px 10px;
+}
+
+.tab-content>.active {
+  color: #ffe600;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  background: #131a1d;
+}
+
+.form-control {
+  background: #131a1d;
+}
+
+@media(max-width:320px) {
+  .header .menu-top .navbar-light .navbar-nav .nav-item:nth-child(1) {
+    list-style: square;
+  }
+
+  .nav {
+    flex-direction: column;
+    margin-left: 40px;
+  }
+
+  .works .nav .nav-item:nth-child(1) {
+    list-style: square;
+  }
+
+  .doe p {
+    text-align: center;
+  }
+
+  .doe h3 {
+    margin: auto;
+  }
+
+  .doe .x {
+    margin: auto;
+  }
+
+  .about-box .box {
+    margin-left: 120px;
+    top: -20px;
+  }
+
+  .about-box h5 {
+    padding-top: 20px;
+  }
+
+  .about-box p {
+    padding-bottom: 20px;
+  }
+
+  .about p {
+    padding-bottom: 20px;
+  }
+
+  .about {
+    padding-bottom: 0;
+  }
+
+  .team {
+    padding-top: 30px;
+  }
+
+  .skills .round h5 {
+    padding-bottom: 20px;
+  }
+
+  .clients img {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .nav {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 320px) {
+
+  .service p {
+    padding-bottom: 50px;
+  }
+
+  .about .about-box {
+    padding-bottom: 10px;
+  }
+
+  .about-box .box {
+    margin-left: 39%;
+  }
+
+  .daniel .btn {
+    margin-left: -35px;
+  }
+
+  .do-it p {
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .service p {
+    padding-bottom: 50px;
+  }
+
+  .do-it p {
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .service .round {
+    margin-top: 20px;
+  }
+}
+
+.fix {
+  background: #939999 !important;
+  box-shadow: 0 10px 15px #000;
+  position: fixed !important;
+  width: 100%;
+  z-index: 999;
+  top: 0%;
+}
+
+/* .fix {
+  background: #383b3c;
+  box-shadow: 0 10px 15px #000;
+  position: fixed;
+  width: 100%;
+} */

@@ -1,0 +1,474 @@
+.bg .menu-top .navbar-brand {
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.bg .menu-top .navbar-collapse .nav-item {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  color: #dfdfe1;
+  text-align: center;
+}
+
+.nav-item:hover {
+  background: #010b29;
+}
+
+.navbar .navbar-toggler {
+  background: #dfdfe1;
+}
+
+.bg .menu-top .btn-primary {
+  font-family: 'Times New Ro...';
+  font-size: 16px;
+  font-weight: 400;
+  width: 120px;
+  height: 35px;
+  color: #fff;
+  border: 1px solid white;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.bg .menu-top .header-bg {
+  background: url('../img/header-bg.png');
+  height: 100vh;
+}
+
+.bg {
+  background: url('../img/header-bg.png') no-repeat center;
+  height: 100vh;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+
+.bg .menu-top .navbar-light .navbar-nav .nav-link {
+  color: #dfdfe1;
+}
+
+.bg .w {
+  margin-top: 230px;
+  text-align: center;
+}
+
+.bg .w h1 {
+  color: #fff;
+  font-family: 'Montserrat(OT1)';
+  font-weight: 700;
+  font-size: 72px;
+  text-align: center;
+}
+
+.bg .w h4 {
+  color: #fff;
+  font-family: 'Montserrat(OT1)';
+  font-size: 30px;
+  text-align: center;
+}
+
+.centered {
+  text-align: center;
+}
+
+.formm {
+  margin-top: 14.5%;
+}
+
+.form .btn {
+  height: 50px;
+  width: 100px;
+  font-family: 'Montserrat(OTT)';
+  font-size: 16px;
+  color: #fff;
+  text-transform: capitalize;
+  background: #ff4b64;
+  font-weight: 400;
+}
+
+.form-control {
+  font-family: 'Montserrat(OTT)';
+  font-size: 16px;
+  color: #818181;
+  height: 50px;
+  border: 1px solid #e6e6e6;
+}
+
+.hotels {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.hotels .house img {
+  height: 200px;
+  max-width: 100%;
+}
+
+.house h5 {
+  margin-top: 10px;
+  font-family: 'Montserrat(OTT)';
+  font-size: 16px;
+  color: #484848;
+  margin-left: 15px;
+}
+
+.house p {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  color: #9a9a9a;
+  margin-left: 15px;
+}
+
+.house span {
+  margin-top: -20px;
+}
+
+.house .btn-primary {
+  background: #fff;
+  color: #ff7b8b;
+  border: 1px solid #ff7b8b;
+  width: 115px;
+  height: 35px;
+  margin-left: 15px;
+}
+
+.house {
+  border: 1px solid #e6e6e6;
+  margin-top: 10%;
+}
+
+.hotels h6 {
+  font-family: 'Montserrat';
+  font-size: 30px;
+  color: #484848;
+  text-transform: capitalize;
+}
+
+.hotels .nav a {
+  padding: 10px;
+  font-family: 'Montserrat(OTT)';
+  font-size: 16px;
+  color: #484848;
+  text-decoration: none;
+}
+
+h3 {
+  font-family: 'Montserrat(OTT)';
+  font-size: 30px;
+  color: #484848;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
+.hotels .nav a:hover {
+  color: #ff4b64;
+}
+
+.attractions img {
+  max-width: 100%;
+}
+
+.attractions .navbar .navbar-brand {
+  font-family: 'Montserrat';
+  font-size: 30px;
+  color: #484848;
+  text-transform: capitalize;
+}
+
+.attractions .navbar-light .navbar-nav .nav-link {
+  color: #797979;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.attractions .nav li {
+  margin: 5px;
+}
+
+.attractions .nav li a {
+  font-family: 'Montserrat(OTT)';
+  font-size: 16px;
+  text-decoration: none;
+  color: #5a5a5a;
+  text-transform: capitalize;
+}
+
+.attractions .nav li a:hover {
+  color: #ff96a2;
+}
+
+.attractions .img {
+  padding-top: 30px;
+}
+
+.trips {
+  padding-top: 100px;
+}
+
+.trips .nav li a {
+  font-family: 'Montserrat(OTT)';
+  font-size: 16px;
+  color: #484848;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-left: 35px;
+}
+
+.trips .nav li a:hover {
+  color: #ff96a2;
+}
+
+.trips .nav h3 {
+  font-family: 'Montserrat(OTT)';
+  font-size: 30px;
+  color: #484848;
+}
+
+.text h6 {
+  font-family: 'Montserrat(OTT)';
+  font-size: 20px;
+  color: #484848;
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+
+.text p {
+  font-family: 'Montserrat(OTT)';
+  font-size: 16px;
+  color: #5a5a5a;
+  font-weight: 'Regular';
+}
+
+.trips img {
+  max-width: 100%;
+}
+
+.trp {
+  border: 1px solid #e6e6e6;
+}
+
+.text {
+  margin: 15px;
+}
+
+.footer .footer-text h3 {
+  font-family: 'Montserrat';
+  text-transform: capitalize;
+  font-size: 30px;
+  color: #484848;
+  font-weight: 500;
+}
+
+.footer .footer-text p {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  color: #6a6a6a;
+  text-transform: capitalize;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.footer span {
+  font-family: 'Montserrat(OTT)';
+  font-size: 16px;
+  color: #ff4b64;
+}
+
+body {
+  font-family: 'Montserrat(OTT)';
+}
+
+.fix {
+  background: #1f2336;
+  -webkit-box-shadow: 0 10px 15px #c4c8d0;
+          box-shadow: 0 10px 15px #c4c8d0;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0%;
+}
+
+#backtotop {
+  z-index: 999;
+  display: inline-block;
+  position: fixed;
+  visibility: hidden;
+  bottom: 20px;
+  right: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px;
+  text-align: center;
+  opacity: .2;
+  background: #000;
+}
+
+#backtotop i {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: inherit;
+}
+
+#backtotop.visible {
+  visibility: visible;
+  opacity: .5;
+}
+
+#backtotop:hover {
+  opacity: 1;
+}
+
+@media (max-width: 1200px) {
+  .w {
+    margin-top: 8% !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .bg .w {
+    margin-top: 70px;
+  }
+
+  .formm {
+    margin-top: 10%;
+  }
+
+  .attractions .img {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bg .w {
+    margin-top: 20px;
+  }
+
+  .formm {
+    margin-top: 16%;
+    margin-left: -7%;
+  }
+
+  .house img {
+    width: 100%;
+  }
+
+  .attractions .img {
+    padding-top: 10px;
+  }
+
+  .text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .formm {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+  }
+
+  .form-control {
+    text-align: center;
+  }
+
+  .btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+  }
+
+  .w h1 {
+    font-family: 'Montserrat(OT1)';
+    font-size: 46px !important;
+  }
+
+  .house img {
+    width: 100%;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .sss {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .sss {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (width: 576px) {
+  .formm {
+    margin-top: 20%;
+    margin-left: -7%;
+  }
+
+  .form-control {
+    text-align: center;
+  }
+
+  .w h1 {
+    font-size: 72px !important;
+  }
+
+  .w h4 {
+    font-size: 30px !important;
+  }
+}
+
+@media (width: 1200px) {
+  .w {
+    margin-top: 6% !important;
+  }
+}
+
+@media (width: 768px) {
+  .bg .w {
+    margin-top: 20px;
+  }
+
+  .formm {
+    margin-top: 14%;
+  }
+}
+
+@media (width: 992px) {
+  .bg .w {
+    margin-top: 70px;
+  }
+
+  .formm {
+    margin-top: 18%;
+  }
+
+  .attractions .img {
+    padding-top: 20px;
+  }
+}

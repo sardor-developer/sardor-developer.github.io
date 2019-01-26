@@ -1,0 +1,51 @@
+@import "../less/bg.less";
+@import "../less/hotels.less";
+@import "../less/attractions.less";
+@import "../less/trips.less";
+@import "../less/flights.less";
+@import "../less/footer.less";
+body {
+  font-family: 'Montserrat(OTT)';
+}
+
+.fix {
+  background: #1f2336;
+  box-shadow: 0 10px 15px #c4c8d0;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: -0%;
+}
+
+//backtotop 
+#backtotop {
+  z-index: 999;
+  display: inline-block;
+  position: fixed;
+  visibility: hidden;
+  bottom: 20px;
+  right: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px;
+  text-align: center;
+  opacity: .2;
+  background: #000;
+}
+
+#backtotop i {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: inherit;
+}
+
+#backtotop.visible {
+  visibility: visible;
+  opacity: .5;
+}
+
+#backtotop:hover {
+  opacity: 1;
+}

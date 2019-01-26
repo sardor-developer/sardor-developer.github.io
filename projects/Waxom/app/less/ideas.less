@@ -1,0 +1,38 @@
+.ideas {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  .ideas-text {
+    padding-bottom: 20px;
+    h4 {
+      font-family: 'Raleway';
+      font-size: 22px;
+      color: #555555;
+      padding: 10px 0 5px;
+    }
+    // h4:hover  {
+    //   color: #c7b299;
+    // }
+    p {
+      font-family: 'Montserrat(OTT)';
+      font-size: 14px;
+      font-weight: 400;
+      color: #8c8c8c;
+      &:after {
+        content: "";
+        display: block;
+        width: 70px;
+        height: 3px;
+        background: #f1eee9;
+        margin: auto;
+        margin-top: 15px;
+      }
+      &:hover:after {
+        content: "";
+        background: #c7b299;
+      }
+    }
+  }
+  .ideas-text:hover h4 {
+    color: #c7b299;
+  }
+}
