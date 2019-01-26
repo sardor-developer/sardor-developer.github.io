@@ -153,7 +153,7 @@
   padding-bottom: 50px;
 }
 
-.about .text {
+/* .about .text {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -162,7 +162,7 @@
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
+} */
 
 .about .mmm {
   border: 2px solid #fff;
@@ -233,7 +233,7 @@
   font-family: inherit;
   font-weight: 500;
   text-transform: capitalize;
-  color: #fff;
+  color: #fed136;
 }
 
 .certificate h2:hover {
@@ -265,7 +265,7 @@
   /* IE 9 */
   /* Opera */
   transform: scale(1.2);
-}
+} 
 
 .certificate .fa-certificate {
   color: #d1c165;
@@ -662,6 +662,7 @@ img {
     /* Opera */
     transform: scale(1.08);
   }
+  
 
   .header_main .img {
     height: 225px !important;
@@ -682,9 +683,9 @@ img {
     padding-top: 3% !important;
   }
 
-  .about .text li {
+/*   .about .text li {
     font-size: 10px !important;
-  }
+  } */
 
   .certificate .sss {
     display: -webkit-box;
@@ -699,7 +700,9 @@ img {
 
   .certificate .photo {
     width: 250px;
+    
   }
+ 
 
   #contact h4 {
     font-size: 1.75rem;
@@ -766,9 +769,9 @@ img {
     padding-top: 8% !important;
   }
 
-  .about .text li {
+/*   .about .text li {
     font-size: 10px !important;
-  }
+  } */
 
   #contact .contact_b ul {
     padding: 10px;
@@ -784,9 +787,9 @@ img {
 }
 
 @media (width: 576px) {
-  .about .text li {
+/*   .about .text li {
     font-size: 12px !important;
-  }
+  } */
 
   #contact h4 {
     font-size: 18px;
