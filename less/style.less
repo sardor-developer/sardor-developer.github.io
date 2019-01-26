@@ -1,0 +1,330 @@
+@import "./params/mix.less";
+@import "./params/var.less";
+@import "../less/portfolio.less";
+@import "../less/header_main.less";
+@import "../less/about.less";
+@import "../less/certificate.less";
+@import "../less/contact.less";
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+#hellopreloader>p {
+  display: none;
+}
+
+#hellopreloader_preload {
+  display: flex;
+  position: fixed;
+  z-index: 99999 !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #3d3d3f url('../loader/Puff.svg') center 50% no-repeat;
+  background-size: 400px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: #fff; // #2C3E50
+}
+
+
+// .hamburger {
+//   padding: 8px 8px;
+// }
+// .hamburger--emphatic .hamburger-inner,
+// .hamburger-inner,
+// .hamburger-inner::before,
+// .hamburger-inner::after {
+//   background: #ffffff;
+//   height: 2px;
+// }
+// * {
+//   transition: all 0.2s;
+// }
+// section {
+//   // height: 100vh;
+//   align-items: center;
+//   justify-content: center;
+//   color: #fff;
+// }
+// h2 {
+//   font-weight: thin;
+// }
+// .menu-link {
+//   z-index: 999;
+//   opacity: .6;
+//   position: fixed;
+//   left: 20px;
+//   top: 20px;
+//   background-color: rgba(128, 136, 144, 0.5);
+//   width: 70px;
+//   height: 50px;
+//   border-radius: 0.35em;
+//   box-shadow: 1px 1px 10px rgba(255, 255, 255, .3);
+// }
+// .menu-link.active-menu {
+//   z-index: 0;
+// }
+// .menu-link span {
+//   position: absolute;
+//   width: 20px;
+//   height: 2px;
+//   background-color: #fff;
+//   top: 50%;
+//   left: 50%;
+//   margin-top: -1px;
+//   margin-left: -10px;
+// }
+// .menu-link span:nth-child(1) {
+//   transform: translateY(-6px);
+// }
+// .menu-link span:nth-child(3) {
+//   transform: translateY(6px);
+// }
+// .menu-link:hover {
+//   cursor: pointer;
+// }
+// .menu-link:hover span:nth-child(3) {
+//   transform-origin: 0% 0%;
+//   transform: translateY(6px) rotate(-33deg);
+//   width: 10px;
+//   margin-left: 0;
+// }
+// .menu-link:hover span:nth-child(1) {
+//   transform-origin: 0% 0%;
+//   transform: translateY(-6px) rotate(31deg);
+//   width: 12px;
+//   margin-left: 0;
+// }
+// menu {
+//   position: fixed;
+//   width: 30%;
+//   height: 100vh;
+//   background-color: #222629;
+//   left: 0;
+//   margin: 0;
+//   top: 0;
+//   z-index: 99;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   transform: translateX(-100%);
+// }
+// .eee {
+//   color: rgba(255, 255, 255, 0.5); // margin-left: 10%;
+//   font-size: 20px;
+//   max-width: 100%;
+//   margin-left: 10%;
+//   text-transform: capitalize;
+// }
+// menu .fa-th {
+//   font-size: 22px;
+// }
+// menu .fa {
+//   font-size: 25px;
+//   margin-left: 10%;
+// }
+// .active-menu {
+//   transform: translateX(-20%);
+// }
+// menu ul {
+//   list-style: none;
+//   padding: 0;
+//   margin: 0;
+//   line-height: 3;
+//   width: 100%;
+// }
+// menu a:hover {
+//   color: rgb(190, 86, 86);
+// }
+// menu ul li {
+//   color: rgba(255, 255, 255, 0.5);
+// }
+// menu ul li a {
+//   font-size: 0.8em;
+// }
+// menu ul li {
+//   margin-left: 9%;
+// }
+// a:hover {
+//   text-decoration: none;
+// }
+// menu ul li:hover {
+//   background: rgba(0, 0, 0, 0.15);
+//   box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
+// }
+// .close-btn {
+//   position: fixed;
+//   top: 30px;
+//   right: 30px;
+//   font-size: 3rem;
+//   transition: all 0.2s;
+//   transform-origin: 50% 53%;
+//   display: block;
+//   line-height: 3rem;
+//   text-align: center;
+//   width: 3rem;
+//   height: 3rem;
+// }
+// .close-btn:hover {
+//   transform: rotate(180deg);
+// }
+.logo {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.logo img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.logo p {
+  font-size: 15px;
+  margin-left: 7px;
+  color: #fff;
+}
+
+.logo h3 {
+  margin: 10px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: capitalize; // display: inline;
+  // margin-left: 7px;
+  text-align: center;
+}
+
+.ddd:hover {
+  background: none;
+  box-shadow: none;
+}
+
+/* Современные браузеры, кроме Chrome, Opera, Safari */
+
+@keyframes top-bottom {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(8%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes top-bottom {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(8%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.effect_top_bottom {
+  /* применить анимацию go-left-right */
+  /* продолжительность 3s */
+  /* количество раз: бесконечное (infinite) */
+  /* менять направление анимации каждый раз (alternate) */
+  animation: top-bottom 1s infinite;
+  -webkit-animation: top-bottom 1s infinite;
+  position: relative;
+}
+
+/* Portfolio Image Hover */
+
+@media (max-width: 576px) {
+  .logo img {
+   
+  }
+  .logo h3 {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 1200px) {
+  .logo h3 {
+    font-size: 17px;
+  }
+}
+
+#backtotop {
+  z-index: 999;
+  display: inline-block;
+  position: fixed;
+  visibility: hidden;
+  bottom: 20px;
+  right: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px;
+  text-align: center;
+  opacity: .2;
+  background: #000;
+  border-radius: 50%;
+}
+
+#backtotop i {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 32px;
+}
+
+#backtotop.visible {
+  visibility: visible;
+  opacity: .5;
+}
+
+#backtotop:hover {
+  opacity: 1;
+}
+
+.hamburger {
+  font-size: 2.3em;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.hamburger:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.menu-btn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 40px;
+}
+
+.fix {
+  background: linear-gradient(to top, #4e506d, rgb(205, 208, 211));
+  // box-shadow: 0 10px 15px rgb(236, 223, 223);
+  box-shadow: 0 10px 15px grey;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0.0%;
+}
+
+.logo p {
+  margin-bottom: -1rem;
+}
