@@ -698,13 +698,13 @@ img {
             justify-content: center;
   }
 
-  .certificate .photo {
+/*   .certificate .photo {
     width: 250px;
     
   }
   .certificate .photo img {
     height: 200px !important;
-  }
+  } */
 
   #contact h4 {
     font-size: 1.75rem;
