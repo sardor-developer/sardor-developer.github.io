@@ -11,6 +11,10 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+    $('.counter').counterUp({
+         delay: 10,
+         time: 1500
+     });
     var video = document.querySelector('.video video');
     var link = $('.menu-top a');
     var header = $('header');
@@ -69,10 +73,7 @@ $(document).ready(function () {
     //         }
     //     }
     // });
-//     $('.counter').counterUp({
-//         delay: 10,
-//         time: 1500
-//     });
+ 
 
 
     function menuFixed() {
