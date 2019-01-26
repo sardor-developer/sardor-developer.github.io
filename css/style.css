@@ -683,9 +683,9 @@ img {
     padding-top: 3% !important;
   }
 
-  .about .text li {
+/*   .about .text li {
     font-size: 10px !important;
-  }
+  } */
 
   .certificate .sss {
     display: -webkit-box;
@@ -769,9 +769,9 @@ img {
     padding-top: 8% !important;
   }
 
-  .about .text li {
+/*   .about .text li {
     font-size: 10px !important;
-  }
+  } */
 
   #contact .contact_b ul {
     padding: 10px;
@@ -787,9 +787,9 @@ img {
 }
 
 @media (width: 576px) {
-  .about .text li {
+/*   .about .text li {
     font-size: 12px !important;
-  }
+  } */
 
   #contact h4 {
     font-size: 18px;
