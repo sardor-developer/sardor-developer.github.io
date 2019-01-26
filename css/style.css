@@ -662,6 +662,7 @@ img {
     /* Opera */
     transform: scale(1.08);
   }
+  
 
   .header_main .img {
     height: 225px !important;
@@ -699,6 +700,9 @@ img {
 
   .certificate .photo {
     width: 250px;
+    
+  }
+  .certificate .photo img {
     height: 100px !important;
   }
 
