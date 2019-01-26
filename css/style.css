@@ -233,7 +233,7 @@
   font-family: inherit;
   font-weight: 500;
   text-transform: capitalize;
-  color: #fff;
+  color: #fed136;
 }
 
 .certificate h2:hover {
@@ -251,7 +251,7 @@
           justify-content: center;
 }
 
-/* .certificate .photo.zoom-effect {
+.certificate .photo.zoom-effect {
   -webkit-transition: 0.5s ease;
   -o-transition: 0.5s ease;
   transition: 0.5s ease;
@@ -265,7 +265,7 @@
   /* IE 9 */
   /* Opera */
   transform: scale(1.2);
-} */
+} 
 
 .certificate .fa-certificate {
   color: #d1c165;
