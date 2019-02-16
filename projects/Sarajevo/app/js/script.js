@@ -15,7 +15,11 @@ $(document).ready(function () {
 });
 $(document).ready(function () {
     var link = $('.menu-top a');
-     //scroll
+    var header = $('header');
+    var menu = $('.menu-top');
+    var flag = false;
+    
+    //scroll
 
     link.on('click', function (e) {
         e.preventDefault();
@@ -26,9 +30,6 @@ $(document).ready(function () {
             scrollTop: target
         }, 1000)
     })
-    var header = $('header');
-    var menu = $('.menu-top');
-    var flag = false;
 
    
     //backtotop
