@@ -48,7 +48,7 @@ $(document).ready(function () {
 
 
 
-    new WOW().init();
+
 
 
 
@@ -74,6 +74,7 @@ $(document).ready(function () {
     }
     $(window).on('scroll', menuFixed);
     menuFixed();
+        new WOW().init();
 
 
 });
