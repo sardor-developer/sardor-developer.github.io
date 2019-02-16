@@ -8,6 +8,10 @@ $(document).ready(function () {
     $('.navbar-nav>li>a').on('click', function () {
         $('.navbar-collapse').collapse('hide');
     });
+       $('.counter').counterUp({
+        delay: 10,
+        time: 1500
+   });
 });
 $(document).ready(function () {
     var link = $('.menu-top a');
@@ -45,10 +49,7 @@ $(document).ready(function () {
 
     new WOW().init();
 
-    $('.counter').counterUp({
-        delay: 10,
-        time: 1500
-    });
+
 
 
     function menuFixed() {

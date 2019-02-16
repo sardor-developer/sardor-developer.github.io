@@ -42,12 +42,12 @@ $(document).ready(function () {
 
 
 
-    new WOW().init();
+    
 
-    $('.counter').counterUp({
-        delay: 10,
-        time: 1500
-    });
+//     $('.counter').counterUp({
+//         delay: 10,
+//         time: 1500
+//     });
 
     function menuFixed() {
         if (scrollY >= header.innerHeight() && !flag) {
@@ -70,5 +70,7 @@ $(document).ready(function () {
     }
     $(window).on('scroll', menuFixed);
     menuFixed();
+    
+    new WOW().init();
 
 });

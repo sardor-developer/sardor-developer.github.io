@@ -793,7 +793,7 @@ img {
   }
 
   .header .menu-carousel .text {
-    margin-top: 6%;
+    margin-top: 10% !important;
   }
 
   .header .menu-carousel .text h4 {
@@ -876,7 +876,7 @@ img {
   }
 
   .header .menu-carousel .text {
-    margin-top: 5%;
+    margin-top: 8% !important;
   }
 
   .header .menu-carousel .text h4 {

@@ -69,10 +69,7 @@ $(document).ready(function () {
     //         }
     //     }
     // });
-    $('.counter').counterUp({
-        delay: 10,
-        time: 1500
-    });
+ 
 
 
     function menuFixed() {
@@ -96,4 +93,8 @@ $(document).ready(function () {
     }
     $(window).on('scroll', menuFixed);
     menuFixed();
+    $('.counter').counterUp({
+         delay: 10,
+         time: 1500
+     });
 });
