@@ -1,0 +1,8 @@
+.products_2 {
+  background: red;
+}
+.products_2 .pro {
+  background: url(../img/products5.jpg);
+  height: 100%;
+  width: 100%;
+}
