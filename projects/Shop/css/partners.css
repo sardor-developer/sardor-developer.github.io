@@ -1,0 +1,18 @@
+.partners {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.partners .partners_title h3 {
+  font-size: 24px;
+  font-family: 'Montserrat(OOT)', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #3853d8;
+}
+.partners .gallery {
+  padding-top: 35px;
+}
+.partners .gallery img {
+  height: 40px;
+  width: 150px !important;
+}

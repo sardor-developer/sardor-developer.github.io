@@ -95,3 +95,25 @@
 .card-product:hover .hide {
   opacity: 0.96;
 }
+@media (max-width: 1200px) {
+  .products .card-product .info-wrap .title {
+    font-size: 16px;
+  }
+  .products .card-product .info-wrap .price-new {
+    font-size: 12px;
+  }
+  .products .card-product .info-wrap .price-old {
+    font-size: 12px;
+  }
+}
+@media (max-width: 992px) {
+  .products .card-product .info-wrap .title {
+    font-size: 16px;
+  }
+  .products .card-product .info-wrap .price-new {
+    font-size: 12px;
+  }
+  .products .card-product .info-wrap .price-old {
+    font-size: 12px;
+  }
+}
