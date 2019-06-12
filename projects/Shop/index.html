@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <!-- Необходимые Мета-теги всегда на первом месте -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shop</title>
+
+    <!-- Bootstrap & Fontawesome CDN CSS -->
+    <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+    <link href="libs/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="libs/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="libs/owl/owl.carousel.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,200,300,400,900" rel="stylesheet">-->
+    <link rel="stylesheet" href="libs/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="libs/carousel/elastislide.css">
+
+
+</head>
+
+
+<body id="home">
+
+
+<header class="header">
+    <div class="menu-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"><h3>LOGO</h3></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Каталог<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Топ продаж</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Новинки</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">оплата</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">контакты</a>
+                        </li>
+                    </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Вход</a>
+                    </li>
+                    <li class="nav-item sss">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">регистрация</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><img src="img/icon6.png" alt=""></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><img src="img/icon5.png" alt=""></a>
+                    </li>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="carousel_text">
+                    <h1>Новые товары</h1>
+                    <button type="button" class="btn btn-primary">Посматреть</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel_text">
+                    <h1>Новые товары</h1>
+                    <button type="button" class="btn btn-primary">Посматреть</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel_text">
+                    <h1>Новые товары</h1>
+                    <button type="button" class="btn btn-primary">Посматреть</button>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="sss" aria-hidden="true"><svg height="90px" fill="#fff" xmlns="http://www.w3.org/2000/svg"
+                                                      viewBox="0 0 512 512"><path
+                    d="M216.4 163.7c5.1 5 5.1 13.3.1 18.4L155.8 243h231.3c7.1 0 12.9 5.8 12.9 13s-5.8 13-12.9 13H155.8l60.8 60.9c5 5.1 4.9 13.3-.1 18.4-5.1 5-13.2 5-18.3-.1l-82.4-83c-1.1-1.2-2-2.5-2.7-4.1-.7-1.6-1-3.3-1-5 0-3.4 1.3-6.6 3.7-9.1l82.4-83c4.9-5.2 13.1-5.3 18.2-.3z"/></svg></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="sss" aria-hidden="true"><svg height="90px" fill="#fff" xmlns="http://www.w3.org/2000/svg"
+                                                      viewBox="0 0 512 512"><path
+                    d="M295.6 163.7c-5.1 5-5.1 13.3-.1 18.4l60.8 60.9H124.9c-7.1 0-12.9 5.8-12.9 13s5.8 13 12.9 13h231.3l-60.8 60.9c-5 5.1-4.9 13.3.1 18.4 5.1 5 13.2 5 18.3-.1l82.4-83c1.1-1.2 2-2.5 2.7-4.1.7-1.6 1-3.3 1-5 0-3.4-1.3-6.6-3.7-9.1l-82.4-83c-4.9-5.2-13.1-5.3-18.2-.3z"/></svg></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+</header>
+
+
+<section class="services">
+    <div class="container">
+        <div class="services_text">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="item">
+                        <div class="icon">
+                            <img src="img/icon1.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h4>Бесплатан доставка</h4>
+                            <p>Просто закажи</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="item">
+                        <div class="icon">
+                            <img src="img/icon2.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h4>Возврат товара</h4>
+                            <p>Лего рещаем проблему</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="item">
+                        <div class="icon">
+                            <img src="img/icon3.png " alt="">
+                        </div>
+                        <div class="text">
+                            <h4>Удобный оплата</h4>
+                            <p>Наличный без наличный</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="item">
+                        <div class="icon">
+                            <img src="img/icon4.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h4>24 часа работаем</h4>
+                            <p>Звоните и пишите</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+<section class="products">
+    <div class="products_title">
+        <div class="img">
+            <img src="img/icon7.png" alt="">
+        </div>
+        <div class="text">
+            <h4>Топ товары</h4>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <figure class="card card-product">
+                    <div class="hide text-center justify-content-center">
+                        <img src="img/icon8.png" alt="">
+                        <p>в корзину</p>
+                        <a class="btn" href="">Добавить</a>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="img/products1.jpg" alt="">
+                    </div>
+                    <figcaption class="info-wrap">
+                        <a class="title" href="">Message cotton t-shirt</a>
+                        <div class="action-wrap">
+                            <!--<a class="btn btn-primary btn-sm float-right" href=""> Order </a>-->
+                            <div class="price-wrap h5">
+                                <span class="price-new">490,000 сум</span>
+
+                            </div>
+
+                        </div>
+
+                    </figcaption>
+
+                </figure>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <figure class="card card-product">
+                    <div class="hide text-center justify-content-center">
+                        <img src="img/icon8.png" alt="">
+                        <p>в корзину</p>
+                        <a class="btn" href="">Добавить</a>
+                    </div>
+                    <span class="badge-new">новый</span>
+                    <div class="img-wrap">
+                        <img src="img/products2.jpg" alt="">
+                    </div>
+                    <figcaption class="info-wrap">
+                        <a class="title" href="">Essential cotton-blend</a>
+                        <div class="action-wrap">
+                            <div class="price-wrap h5">
+                                <del class="price-old">150,000 сум</del>
+                                <span class="price-new">100,000 сум</span>
+                            </div>
+
+                        </div>
+
+                    </figcaption>
+
+                </figure>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <figure class="card card-product">
+                    <div class="hide text-center justify-content-center">
+                        <img src="img/icon8.png" alt="">
+                        <p>в корзину</p>
+                        <a class="btn" href="">Добавить</a>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="img/products3.jpg" alt="">
+                    </div>
+                    <figcaption class="info-wrap">
+                        <a class="title" href="">Flecked cotton-blend</a>
+                        <div class="action-wrap">
+                            <!--<a class="btn btn-primary btn-sm float-right" href=""> Order </a>-->
+                            <div class="price-wrap h5">
+                                <span class="price-new">250,000 сум</span>
+
+                            </div>
+
+                        </div>
+
+                    </figcaption>
+
+                </figure>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <figure class="card card-product">
+                    <div class="hide text-center justify-content-center">
+                        <img src="img/icon8.png" alt="">
+                        <p>в корзину</p>
+                        <a class="btn" href="">Добавить</a>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="img/products4.jpg" alt="">
+                    </div>
+                    <figcaption class="info-wrap">
+                        <a class="title" href="">Striped cotton t-shirt</a>
+                        <div class="action-wrap">
+                            <!--<a class="btn btn-primary btn-sm float-right" href=""> Order </a>-->
+                            <div class="price-wrap h5">
+                                <span class="price-new">125,000 сум</span>
+
+                            </div>
+
+                        </div>
+
+                    </figcaption>
+
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="discount">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-9">
+                <div class="discount_pro">
+                    <!--<img class="imgg" src="img/products5.png" alt="">-->
+                    <div class="row">
+                        <div class="col-lg-6 col-6">
+                            <div class="discount_text">
+                                <span class="badge-new">новый</span>
+                                <h5 class="text_1">Рубашка</h5>
+                                <h3 class="text_2">Модный рубашка</h3>
+                            </div>
+                            <a class="btn price" href="">
+                                <h5 class="pricee">75,000 СУМ</h5>
+                                <h5 class="buy">купить</h5>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-4 text-center">
+                            <div class="discount_title">
+                                <h1>50%</h1>
+                                <h4>скидка</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3">
+                <div class="discount_product">
+                    <button type="button" class="btn btn-success">Все топ товары</button>
+                    <br>
+                    <button type="button" class="btn btn">Все товары со скидкой</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="discount_pro_2">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="discount_text">
+                                <h5 class="text_1">Стильный</h5>
+                                <h3 class="text_2">Слим костюм <br>
+                                    для офиса</h3>
+                                <h4 class="price_pro">800,000 сум</h4>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-lg-6 col-md-6">
+                <div class="discount_pro_3">
+                    <!--<div class="row">-->
+                    <!--<div class="col-lg-6">-->
+                    <div class="discount_text">
+                        <h5 class="text_1">Спротивный</h5>
+                        <h3 class="text_2">Lightweight <br>Одежды для спорта</h3>
+                        <h4 class="price_pro">450,000 сум</h4>
+                    </div>
+
+                </div>
+                <!--</div>-->
+                <!--</div>-->
+
+
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<section class="news">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 order-lg-1">
+                <div class="news_title bgg">
+                    <h3>Новости</h3>
+                    <a class="ssss line1" href="#carouselExampleFade" role="button"
+                       data-slide="prev">
+                        <span class="" aria-hidden="true"><i class="fa fa-chevron-left"></i></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="ssss" href="#carouselExampleFade" role="button"
+                       data-slide="next">
+                        <span class="" aria-hidden="true"><i class="fa fa-chevron-right"></i></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="blog_carousel">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-7">
+                            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="carousel_text">
+                                            <p>Дата: Аперль - 15, 2018</p>
+                                            <h4>Новый мода осень, <br>
+                                                Одевайся</h4>
+                                        </div>
+                                        <img src="img/products9.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="carousel_text">
+                                            <p>Дата: Аперль - 15, 2018</p>
+                                            <h4>Новый мода осень, <br>
+                                                Одевайся</h4>
+                                            asdasd
+                                        </div>
+                                        <img src="img/products9.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="carousel_text">
+                                            <p>Дата: Аперль - 15, 2018</p>
+                                            <h4>Новый мода осень, <br>
+                                                Одевайся</h4>
+                                        </div>
+                                        <img src="img/products9.png" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                                <!--<a class="carousel-control-prev" href="#carouselExampleFade" role="button"-->
+                                <!--data-slide="prev">-->
+                                <!--<span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+                                <!--<span class="sr-only">Previous</span>-->
+                                <!--</a>-->
+                                <!--<a class="carousel-control-next" href="#carouselExampleFade" role="button"-->
+                                <!--data-slide="next">-->
+                                <!--<span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+                                <!--<span class="sr-only">Next</span>-->
+                                <!--</a>-->
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="blogg">
+                                <div class="blog_text">
+                                    <img src="img/icon9.png" alt="">
+                                    <div class="text">
+                                        <p>Дата: Апрель - 1, 2018</p>
+                                        <h4>Год <br>моддый</h4>
+                                    </div>
+                                </div>
+                                <div class="blog_text">
+                                    <img src="img/icon10.png" alt="">
+                                    <div class="text">
+                                        <p>Дата: Март - 14, 2018</p>
+                                        <h4>Какой модда<br>в 2018</h4>
+                                    </div>
+                                </div>
+                                <a class="ss" href="">Посматреть все...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 order-lg-0">
+                <div class="news-l">
+                    <p>Новости сегодня</p>
+                    <div class="sales">
+                        <h1>197</h1>
+                        <h4>товары по скидки
+                            продано</h4>
+                    </div>
+                    <button type="button" class="btn btn-primary">Читать</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+
+<section class="partners">
+    <div class="container">
+        <div class="partners_title text-center">
+            <h3>Наши партнеры</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="gallery owl-carousel">
+                    <img src="img/partners1.png" alt="">
+                    <img src="img/partners2.png" alt="">
+                    <img src="img/partners3.png" alt="">
+                    <img src="img/partners4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--<div class="slider text-center">-->
+    <!--<div class="container">-->
+    <!--<ul id="elastislide" class="elastislide-list">-->
+    <!--<li>-->
+    <!--<a href="#">-->
+    <!--<img src="img/partners1.png" alt="image01"/>-->
+    <!--</a>-->
+    <!--</li>-->
+    <!--<li>-->
+    <!--<a href="#">-->
+    <!--<img src="img/partners2.png" alt="image02"/>-->
+    <!--</a>-->
+    <!--</li>-->
+    <!--<li>-->
+    <!--<a href="#">-->
+    <!--<img src="img/partners3.png" alt="image02"/>-->
+    <!--</a>-->
+    <!--</li>-->
+    <!--<li>-->
+    <!--<a href="#">-->
+    <!--<img src="img/partners4.png" alt="image02"/>-->
+    <!--</a>-->
+    <!--</li>-->
+    <!--</ul>-->
+    <!--</div>-->
+    <!--</div>-->
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="footer_text">
+                    <h3>logo</h3>
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-i" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <ul class="footer_nav">
+                    <li class="">
+                        <a href="#">Каталог</a>
+                    </li>
+                    <li class="">
+                        <a href="#">Топ продаж</a>
+                    </li>
+                    <li class="">
+                        <a href="#">Новинки</a>
+                    </li>
+                    <li class="">
+                        <a href="#">оплата</a>
+                    </li>
+                    <li class="">
+                        <a href="#">контакты</a>
+                    </li>
+                </ul>
+
+                <div class="now-text">
+                    <h4>Подпишесь на новосты</h4>
+                    <div class="input">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8">
+                                <input type="text" class="form-control" placeholder="Почта">
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                                <button type="button" class="btn">Отправить</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="footer_call">
+                    <h4>Звоните</h4>
+                    <p>+998 (91) 256 00 00</p>
+                    <div class="icon">
+                        <img src="img/icon11.png" alt="">
+                        <img src="img/icon12.png" alt="">
+                        <img src="img/icon13.png" alt="">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</footer>
+
+
+<!--<section class="partners">-->
+<!--<div class="container">-->
+<!--<div class="partners_title text-center">-->
+<!--<h3>Наши партнеры</h3>-->
+<!--</div>-->
+
+<!--<div class="row">-->
+<!--<div class="col-lg-12">-->
+<!--<div class="gallery owl-carousуд">-->
+<!--<img src="img/partners1.png" alt="">-->
+<!--<img src="img/partners2.png" alt="">-->
+<!--<img src="img/partners3.png" alt="">-->
+<!--<img src="img/partners4.png" alt="">-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--</section>-->
+
+
+<!--<a id="backtotop" href="#top">-->
+<!--<i class="fa fa-chevron-up"></i>-->
+<!--</a>-->
+<script src="js/modernizr.custom.17475.js"></script>
+<script src="js/jquery_3.2.1.js"></script>
+<script src="libs/js/popper.js"></script>
+<script src="libs/js/bootstrap.js"></script>
+<script src="libs/carousel/jquery.elastislide.js"></script>
+<script src="js/script.js"></script>
+<script src="libs/owl/owl.carousel.js"></script>
+<!--<script src="libs/js/jquery.min.js"></script>-->
+
+
+</body>
+
+</html>
